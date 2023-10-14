@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <header>
+            <h1>
+                Upgrade your Account
+            </h1>
+            <div>
+                <h6>
+                    1 of 5 Completed
+                </h6>
+                <img src="./img/div.progress.png">
+            </div>
+        </header>
+        <section>
+            <ul>
+                <li>
+                    <button>
+                        <img src="./img/Symbol.png">
+                        Application data 
+                    </button>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <button>
+                        Tax residency
+                    </button>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <button>
+                        Indentity card
+                    </button>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <button>
+                        Investability
+                    </button>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <button>
+                        Review
+                    </button>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>
+                Applicant Data
+            </h2>
+            <p>
+                Please take a salfie with your document so that it’s clearly visible anddoses not cover your face.
+            </p>
+        </section>
+        <section>
+             <form action="https://65146859dc3282a6a3cd2340.mockapi.io/api/user" method="post">
+                <div>
+                    <input  type="text" name="First and Last Name" placeholder="First and Last Name" required> 
+                </div>
+                <div>
+                    <input  type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div>
+                    <input  type="text" name="Phone" placeholder="Phone" required> 
+                    <input  type="text" name="Education" placeholder="Education" required>
+                </div>
+                <div>
+                    <img src="./img/i.fa-info.png">
+                    <input  type="text" name="Company Name" placeholder="Company Name" required>
+                </div>
+                <div>
+                    <input  type="text" name="Address" placeholder="Address Line 1" required>
+                </div>
+                <div>
+                    <input  type="text" name="City" placeholder="City" required>
+                    <input  type="text" name="State/Province/Region" placeholder="State/Province/Region" required>
+                    <input  type="text" name="Zip/Postal Code" placeholder="Zip/Postal Code" required>
+                </div>
+                <div>
+                    <img src="./img/i.fa-info.png">
+                    <input  type="text" name="Company No." placeholder="Company No." required>
+                    <label for="Country">Country</label required>
+                    <select for="Country" id="Country">
+                        <option value="Egypt">Egypt</option>
+                        <option value="libya">libya</option>
+                        <option value="palestine">palestine</option>
+                </div>
+                <div>
+                    Show country on your profile and badges<input type="checkbox">Yes<input type="checkbox">No
+                </div>              
+        </section>
+        <div>
+            <img src="./img/v3.png.png">
+            <button type="submit">NEXT</button>
+        </div>
+    </body>
+</html>
